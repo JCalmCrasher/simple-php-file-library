@@ -11,7 +11,7 @@ Clone from the repo using https https://github.com/JCalmCrasher/php-file-control
 Example of use for this library:
 
 ```
-    require 'path/FileController.php';
+    require_once __DIR__ . '/FileController.php';
 
     // Instantiate the File handler
     $file = new FileController();
